@@ -38,7 +38,8 @@
     --main-blue: #156EC6;
     --accent-blue:#48BEFF;
     --text-grey: #2A3D45;
-    --accent-yellow: #F3C969;
+    /* --accent-yellow: #F3C969; */
+    --accent-yellow: #dbaf1e;
 }
 
 body{
@@ -900,7 +901,7 @@ Resume Timeline
 }
 
 .timeline>li .timeline-content:hover {
-    background: var(--accent-yellow);
+    background: var(--main-blue);
     color: #fff;
 }
 
@@ -921,7 +922,7 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li .timeline-panel:hover::before {
-    border-left: 12px solid var(--accent-yellow);
+    border-left: 12px solid var(--main-blue);
 }
 
 .timeline>li.timeline-inverted .timeline-panel::before {
@@ -933,7 +934,7 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li.timeline-inverted .timeline-panel:hover::before {
-    border-right: 12px solid var(--accent-yellow);
+    border-right: 12px solid var(--main-blue);
     border-left: 0;
 }
 
@@ -955,7 +956,7 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li .timeline-panel:hover::after {
-    border-left: 12px solid var(--accent-yellow);
+    border-left: 12px solid var(--main-blue);
 }
 
 .timeline>li.timeline-inverted .timeline-panel::after {
@@ -968,7 +969,7 @@ Resume Timeline
     transition: all 400ms;
 }
 .timeline>li.timeline-inverted .timeline-panel:hover::after {
-    border-right: 12px solid var(--accent-yellow);
+    border-right: 12px solid var(--main-blue);
     border-left: 0;
 }
 
@@ -1027,7 +1028,7 @@ Resume Timeline
 }
 
 .progress-bar {
-    background-color: #68c3a3;
+    background-color: var(--accent-yellow);
 }
 .progress-bar span{
     position: absolute;
